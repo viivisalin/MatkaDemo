@@ -33,7 +33,7 @@ export default function MatkaList() {
 
             <MatkaGrid 
             matkat = {matkat} 
-            poistaMatka = {deleteByIndex} />
+            deleteByIndex = {deleteByIndex} />
         </>
     )
 }
